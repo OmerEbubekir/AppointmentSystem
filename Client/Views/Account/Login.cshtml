@@ -1,0 +1,46 @@
+﻿@* Eğer Login için bir ViewModel'iniz varsa, onu buraya ekleyin. Örneğin: *@
+@* @model Client.Models.LoginViewModel *@
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-secondary text-white">
+                    <h2 class="mb-0 text-center">Giriş Yap</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Login" method="post">
+                        @* EHataa mesaj konumu *@
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input name="email" id="email" class="form-control" type="email" />
+                            @*  *@
+                            @* <span asp-validation-for="Email" class="text-danger"></span> *@
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Şifre:</label>
+                            <input name="password" id="password" class="form-control" type="password" />
+                            @* E *@
+                            @* <span asp-validation-for="Password" class="text-danger"></span> *@
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg">Giriş Yap</button>
+                        </div>
+                    </form>
+                    <hr />
+                    <p class="text-center">
+                        Hesabınız yok mu? <a asp-action="Register">Kayıt Ol</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

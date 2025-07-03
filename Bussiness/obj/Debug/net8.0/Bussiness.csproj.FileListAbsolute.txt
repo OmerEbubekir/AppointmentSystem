@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\bin\Debug\net8.0\Bussiness.deps.json
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\bin\Debug\net8.0\Bussiness.dll
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\bin\Debug\net8.0\Bussiness.pdb
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\obj\Debug\net8.0\Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\obj\Debug\net8.0\Bussiness.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\obj\Debug\net8.0\Bussiness.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\obj\Debug\net8.0\Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\obj\Debug\net8.0\Bussiness.dll
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\obj\Debug\net8.0\refint\Bussiness.dll
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\obj\Debug\net8.0\Bussiness.pdb
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\obj\Debug\net8.0\ref\Bussiness.dll
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\bin\Debug\net8.0\Data.dll
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\bin\Debug\net8.0\Data.pdb
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\obj\Debug\net8.0\Bussiness.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Randevu_sistemi\Bussiness\obj\Debug\net8.0\Bussiness.csproj.Up2Date
