@@ -7,5 +7,7 @@ namespace Bussiness.Interfaces
     {
         Task<User?> LoginAsync(string userEmail, string password);
         Task<bool> RegisterAsync(User user, string password);
+
+      
     }
 }

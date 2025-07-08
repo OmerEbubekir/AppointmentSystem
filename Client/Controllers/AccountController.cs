@@ -2,6 +2,11 @@
 using Client.Models;
 using Data.Entitys;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+using Bussiness.Services;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Client.Controllers
 {
@@ -54,13 +59,51 @@ namespace Client.Controllers
             var user = await _userService.LoginAsync(email, password);
             if (user != null)
             {
-                
-                return RedirectToAction("Index", "Home");
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, user.FirstName),
+                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                    new Claim(ClaimTypes.Email, user.Email)
+                };
+                var identify=new ClaimsIdentity(claims,"MyCookieAuth");
+                var principal=new ClaimsPrincipal(identify);
+                await HttpContext.SignInAsync("MyCookieAuth", principal);
+
+                HttpContext.Session.SetInt32("UserId", user.Id);
+                HttpContext.Session.SetString("UserFullName", $"{user.FirstName} {user.LastName}");
+                HttpContext.Session.SetString("UserRole", user.Role);
+
+                return RedirectToAction("Panel");
             }
+
             ModelState.AddModelError("", "Hatalı Email veya şifre.");
             return View();
         }
+
+
+        public IActionResult Panel()
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null)
+            {
+                return RedirectToAction("Login");
+            }
+
+            ViewBag.UserFullName = HttpContext.Session.GetString("UserFullName");
+            return View();
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear(); // Tüm session bilgilerini siler
+            return RedirectToAction("Login");
+        }
+      
+
+
+
     }
+
 
 }
 

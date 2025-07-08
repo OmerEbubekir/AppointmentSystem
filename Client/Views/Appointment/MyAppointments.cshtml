@@ -1,0 +1,36 @@
+﻿@model List<Data.Entitys.Appointment>
+
+<h2>Randevularım</h2>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Başlık</th>
+			<th>Açıklama</th>
+			<th>Tarih</th>
+			<th>Hasta Adı</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var randevu in Model)
+		{
+			<tr>
+				<td>@randevu.Title</td>
+				<td>@randevu.Description</td>
+				<td>@randevu.AppointmentDate.ToString("dd.MM.yyyy HH:mm")</td>
+				<td>@randevu.PatientName</td>
+				<td>
+					<a asp-action="Edit" asp-route-id="@randevu.Id" class="btn btn-sm btn-warning">Güncelle</a>
+				</td>
+				<td>
+
+					<form asp-action="Delete" asp-route-id="@randevu.Id" method="post" style="display:inline;">
+						<button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</button>
+					</form>
+				</td>
+
+
+			</tr>
+		}
+	</tbody>
+</table>

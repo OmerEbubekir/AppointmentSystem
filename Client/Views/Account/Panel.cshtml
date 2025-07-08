@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Kullanıcı Paneli";
+}
+
+<h2>Merhaba @ViewBag.UserFullName 👋</h2>
+
+<hr />
+
+<div class="d-grid gap-2 col-6 mx-auto">
+    <a asp-controller="Appointment" asp-action="Create" class="btn btn-primary">➕ Yeni Randevu Oluştur</a>
+    <a asp-controller="Appointment" asp-action="MyAppointments" class="btn btn-secondary">📅 Randevularım</a>
+    <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">🚪 Çıkış Yap</a>
+</div>
