@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\bin\Debug\net8.0\AppointmentSystem.Entities.deps.json
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\bin\Debug\net8.0\AppointmentSystem.Entities.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\bin\Debug\net8.0\AppointmentSystem.Entities.pdb
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\obj\Debug\net8.0\AppointmentSystem.Entities.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\obj\Debug\net8.0\AppointmentSystem.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\obj\Debug\net8.0\AppointmentSystem.Entities.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\obj\Debug\net8.0\AppointmentSystem.Entities.AssemblyInfo.cs
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\obj\Debug\net8.0\AppointmentSystem.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\obj\Debug\net8.0\AppointmentSystem.Entities.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\obj\Debug\net8.0\refint\AppointmentSystem.Entities.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\obj\Debug\net8.0\AppointmentSystem.Entities.pdb
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Entities\obj\Debug\net8.0\ref\AppointmentSystem.Entities.dll

@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55A54082-84BC-4B70-AA61-18137A9D1FD7}|AppointmentSystem.Business\\AppointmentSystem.Business.csproj|c:\\users\\admin\\source\\repos\\randevusistemi\\appointmentsystem.business\\services\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A54082-84BC-4B70-AA61-18137A9D1FD7}|AppointmentSystem.Business\\AppointmentSystem.Business.csproj|solutionrelative:appointmentsystem.business\\services\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058D2758-DD17-4047-9FF1-BAA141054F78}|RandevuSistemi\\RandevuSistemi.csproj|c:\\users\\admin\\source\\repos\\randevusistemi\\randevusistemi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058D2758-DD17-4047-9FF1-BAA141054F78}|RandevuSistemi\\RandevuSistemi.csproj|solutionrelative:randevusistemi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058D2758-DD17-4047-9FF1-BAA141054F78}|RandevuSistemi\\RandevuSistemi.csproj|c:\\users\\admin\\source\\repos\\randevusistemi\\randevusistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058D2758-DD17-4047-9FF1-BAA141054F78}|RandevuSistemi\\RandevuSistemi.csproj|solutionrelative:randevusistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A54082-84BC-4B70-AA61-18137A9D1FD7}|AppointmentSystem.Business\\AppointmentSystem.Business.csproj|c:\\users\\admin\\source\\repos\\randevusistemi\\appointmentsystem.business\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A54082-84BC-4B70-AA61-18137A9D1FD7}|AppointmentSystem.Business\\AppointmentSystem.Business.csproj|solutionrelative:appointmentsystem.business\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A54082-84BC-4B70-AA61-18137A9D1FD7}|AppointmentSystem.Business\\AppointmentSystem.Business.csproj|c:\\users\\admin\\source\\repos\\randevusistemi\\appointmentsystem.business\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A54082-84BC-4B70-AA61-18137A9D1FD7}|AppointmentSystem.Business\\AppointmentSystem.Business.csproj|solutionrelative:appointmentsystem.business\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A54082-84BC-4B70-AA61-18137A9D1FD7}|AppointmentSystem.Business\\AppointmentSystem.Business.csproj|c:\\users\\admin\\source\\repos\\randevusistemi\\appointmentsystem.business\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A54082-84BC-4B70-AA61-18137A9D1FD7}|AppointmentSystem.Business\\AppointmentSystem.Business.csproj|solutionrelative:appointmentsystem.business\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5B6B2D4-207D-4AAC-AE25-CA502A7D87B3}|AppointmentSystem.DataAccess\\AppointmentSystem.DataAccess.csproj|c:\\users\\admin\\source\\repos\\randevusistemi\\appointmentsystem.dataaccess\\repositories\\efuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5B6B2D4-207D-4AAC-AE25-CA502A7D87B3}|AppointmentSystem.DataAccess\\AppointmentSystem.DataAccess.csproj|solutionrelative:appointmentsystem.dataaccess\\repositories\\efuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5B6B2D4-207D-4AAC-AE25-CA502A7D87B3}|AppointmentSystem.DataAccess\\AppointmentSystem.DataAccess.csproj|c:\\users\\admin\\source\\repos\\randevusistemi\\appointmentsystem.dataaccess\\appointmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5B6B2D4-207D-4AAC-AE25-CA502A7D87B3}|AppointmentSystem.DataAccess\\AppointmentSystem.DataAccess.csproj|solutionrelative:appointmentsystem.dataaccess\\appointmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7738A216-E2F6-4DE0-8D9D-5CE27B984096}|AppointmentSystem.Entities\\AppointmentSystem.Entities.csproj|c:\\users\\admin\\source\\repos\\randevusistemi\\appointmentsystem.entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7738A216-E2F6-4DE0-8D9D-5CE27B984096}|AppointmentSystem.Entities\\AppointmentSystem.Entities.csproj|solutionrelative:appointmentsystem.entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058D2758-DD17-4047-9FF1-BAA141054F78}|RandevuSistemi\\RandevuSistemi.csproj|c:\\users\\admin\\source\\repos\\randevusistemi\\randevusistemi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{058D2758-DD17-4047-9FF1-BAA141054F78}|RandevuSistemi\\RandevuSistemi.csproj|solutionrelative:randevusistemi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\RandevuSistemi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RandevuSistemi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\RandevuSistemi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RandevuSistemi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:46:15.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.Business\\LoginDto.cs",
+              "RelativeDocumentMoniker": "AppointmentSystem.Business\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.Business\\LoginDto.cs",
+              "RelativeToolTip": "AppointmentSystem.Business\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:43:22.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.Business\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "AppointmentSystem.Business\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.Business\\RegisterDto.cs",
+              "RelativeToolTip": "AppointmentSystem.Business\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:43:02.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.Business\\Services\\AuthManager.cs",
+              "RelativeDocumentMoniker": "AppointmentSystem.Business\\Services\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.Business\\Services\\AuthManager.cs",
+              "RelativeToolTip": "AppointmentSystem.Business\\Services\\AuthManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowDEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:41:35.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.Business\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "AppointmentSystem.Business\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.Business\\Services\\IAuthService.cs",
+              "RelativeToolTip": "AppointmentSystem.Business\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:41:26.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EfUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.DataAccess\\Repositories\\EfUserRepository.cs",
+              "RelativeDocumentMoniker": "AppointmentSystem.DataAccess\\Repositories\\EfUserRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.DataAccess\\Repositories\\EfUserRepository.cs",
+              "RelativeToolTip": "AppointmentSystem.DataAccess\\Repositories\\EfUserRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:40:32.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\RandevuSistemi\\Program.cs",
+              "RelativeDocumentMoniker": "RandevuSistemi\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\RandevuSistemi\\Program.cs",
+              "RelativeToolTip": "RandevuSistemi\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:35:44.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppointmentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.DataAccess\\AppointmentDbContext.cs",
+              "RelativeDocumentMoniker": "AppointmentSystem.DataAccess\\AppointmentDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.DataAccess\\AppointmentDbContext.cs",
+              "RelativeToolTip": "AppointmentSystem.DataAccess\\AppointmentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:39:44.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.Entities\\User.cs",
+              "RelativeDocumentMoniker": "AppointmentSystem.Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\AppointmentSystem.Entities\\User.cs",
+              "RelativeToolTip": "AppointmentSystem.Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:36:55.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\RandevuSistemi\\appsettings.json",
+              "RelativeDocumentMoniker": "RandevuSistemi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\RandevuSistemi\\RandevuSistemi\\appsettings.json",
+              "RelativeToolTip": "RandevuSistemi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-03T08:34:16.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

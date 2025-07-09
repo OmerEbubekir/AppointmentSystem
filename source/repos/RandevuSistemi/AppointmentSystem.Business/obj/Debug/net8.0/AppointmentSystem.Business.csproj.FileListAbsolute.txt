@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\bin\Debug\net8.0\AppointmentSystem.Business.deps.json
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\bin\Debug\net8.0\AppointmentSystem.Business.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\bin\Debug\net8.0\AppointmentSystem.Business.pdb
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\bin\Debug\net8.0\AppointmentSystem.DataAccess.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\bin\Debug\net8.0\AppointmentSystem.Entities.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\bin\Debug\net8.0\AppointmentSystem.DataAccess.pdb
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\bin\Debug\net8.0\AppointmentSystem.Entities.pdb
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\obj\Debug\net8.0\AppointmentSystem.Business.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\obj\Debug\net8.0\AppointmentSystem.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\obj\Debug\net8.0\AppointmentSystem.Business.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\obj\Debug\net8.0\AppointmentSystem.Business.AssemblyInfo.cs
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\obj\Debug\net8.0\AppointmentSystem.Business.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\obj\Debug\net8.0\Appointm.A06F4F11.Up2Date
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\obj\Debug\net8.0\AppointmentSystem.Business.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\obj\Debug\net8.0\refint\AppointmentSystem.Business.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\obj\Debug\net8.0\AppointmentSystem.Business.pdb
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.Business\obj\Debug\net8.0\ref\AppointmentSystem.Business.dll

@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\bin\Debug\net8.0\AppointmentSystem.DataAccess.deps.json
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\bin\Debug\net8.0\AppointmentSystem.DataAccess.runtimeconfig.json
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\bin\Debug\net8.0\AppointmentSystem.DataAccess.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\bin\Debug\net8.0\AppointmentSystem.DataAccess.pdb
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\bin\Debug\net8.0\AppointmentSystem.Entities.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\bin\Debug\net8.0\AppointmentSystem.Entities.pdb
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\AppointmentSystem.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\AppointmentSystem.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\AppointmentSystem.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\AppointmentSystem.DataAccess.AssemblyInfo.cs
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\AppointmentSystem.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\Appointm.921418AD.Up2Date
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\AppointmentSystem.DataAccess.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\refint\AppointmentSystem.DataAccess.dll
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\AppointmentSystem.DataAccess.pdb
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\AppointmentSystem.DataAccess.genruntimeconfig.cache
+C:\Users\Admin\source\repos\RandevuSistemi\AppointmentSystem.DataAccess\obj\Debug\net8.0\ref\AppointmentSystem.DataAccess.dll
