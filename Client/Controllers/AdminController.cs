@@ -1,6 +1,7 @@
 ﻿using Bussiness.Interfaces;
 using Data.Entitys;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using System.Threading.Tasks;
 
 namespace Client.Controllers
@@ -22,12 +23,32 @@ namespace Client.Controllers
         [HttpPost]
         public async Task<IActionResult> AddUser(User model)
         {
-            Console.WriteLine("Formdan gelen isim: " + model.FirstName);
+            
             if (!ModelState.IsValid)
+            {
+               
                 return View(model);
-
+            }
+               
+            
             await _adminService.AddUserAsync(model);
             return RedirectToAction(nameof(Panel));
+        }
+        [HttpGet]
+        public IActionResult AddAppointment()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddAppointment(Appointment model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+            await _adminService.AddAppointmentAsync(model);
+            return RedirectToAction(nameof(GetAllAppointment));
         }
 
         [HttpGet]
@@ -47,6 +68,27 @@ namespace Client.Controllers
             }
             return RedirectToAction(nameof(Panel));
         }
+
+        [HttpGet]
+        public IActionResult DeleteAppointment()
+        {
+            return RedirectToAction(nameof(Panel));
+
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteAppointment(int appointmentId)
+        {
+            var success = await _adminService.DeleteAppointmentAsync(appointmentId);
+            if (!success)
+            {
+                ModelState.AddModelError("", "Randevu bulunamadı veya silinemedi.");
+            }
+
+            return RedirectToAction(nameof(GetAllAppointment));
+        }
+
 
         [HttpGet]
         public IActionResult EditAppointment()
@@ -99,18 +141,20 @@ namespace Client.Controllers
         }
         public IActionResult Index()
         {
-            return RedirectToAction("Panel");
+
+
+            return RedirectToAction(nameof(Panel));
         }
 
-        public IActionResult Panel()
+        public async Task<IActionResult> Panel()
         {
             var role = HttpContext.Session.GetString("UserRole");
             if (role != "Admin")
             {
                 return RedirectToAction("AccessDenied", "Home");
             }
-
-            return View();
+            var user =await _adminService.GetAllUsersAsync();
+            return View(user);
         }
     }
 }

@@ -36,7 +36,7 @@ namespace Bussiness.Services
         public async Task<bool> RegisterAsync(User user, string password)
         {
             if (await _context.Users.AnyAsync(u => u.Email == user.Email))
-                return false; // Email zaten kayıtlı
+                return false;
 
             user.PasswordHash = PasswordHelper.HashPassword(password);
 
@@ -45,10 +45,35 @@ namespace Bussiness.Services
 
             return true;
         }
-        
-       
-       
+
+
+        public async Task<List<Appointment>> GetAvailableAppointmentsAsync(DateTime date)
+        {
+            return await _context.Appointments
+        .Where(a => a.AppointmentDate.Date >= date.Date && a.UserID == null)
+        .OrderBy(a => a.AppointmentDate)
+        .ToListAsync();
+        }
+        public async Task<Appointment> BookAppointmentAsync(int userId, int appointmentId)
+        {
+            var appointment = await _context.Appointments.FindAsync(appointmentId);
+            if (appointment == null || appointment.UserID != null)
+            {
+                return null; 
+            }
+
+            var user = await _context.Users.FindAsync(userId);
+            if (user == null)
+            {
+                return null;
+            }
+
+            appointment.UserID = userId;
+            appointment.PatientName = user.FirstName + " " + user.LastName;
+
+            await _context.SaveChangesAsync();
+            return appointment;
+        }
+
     }
-
-
 }

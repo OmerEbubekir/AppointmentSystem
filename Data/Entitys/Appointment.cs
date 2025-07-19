@@ -18,9 +18,9 @@ namespace Data.Entitys
 
         public DateTime AppointmentDate { get; set; }
 
-        [Required]
-        public string PatientName { get; set; }
-        public int UserID { get; set; }
+        
+        public string? PatientName { get; set; }
+        public int? UserID { get; set; }
         public User? User { get; set; }
         public string Description { get; set; }
     }

@@ -1,5 +1,10 @@
 ﻿@model List<Data.Entitys.Appointment>
 
+
+@{
+    ViewData["Title"] = "Randevular";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
 <div class="container mx-1">
 
     <h2 class="mt-4 ">Randevu Listesi</h2>
@@ -8,7 +13,7 @@
         {
             @foreach (var appointment in Model)
             {
-                if (@appointment.UserID == null) { }
+                
                 <div class="col-xl-3 col-md-6 mb-4">
                     <div class="card shadow border-start-primary h-100 py-2">
                         <div class="card-body">
@@ -36,14 +41,13 @@
                     </div>
                 </div>
             }
-        }
 
         }
         else
         {
-        <div class="col-12">
-            <div class="alert alert-info">Henüz Randevu eklenmemiş.</div>
-        </div>
+            <div class="col-12">
+                <div class="alert alert-info">Henüz Randevu eklenmemiş.</div>
+            </div>
         }
     </div>
 </div>

@@ -1,0 +1,43 @@
+﻿@model Data.Entitys.Appointment
+
+@{
+    ViewData["Title"] = "Randevu Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2>Randevu Ekle</h2>
+    <form asp-action="AddAppointment" method="post">
+        <div class="mb-3">
+            <label asp-for="PatientName" class="form-label">Hasta Adı</label>
+            <input asp-for="PatientName" class="form-control" />
+            
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Title" class="form-label">Randevu Başlığı</label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label">Açıklama</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+            
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="AppointmentDate" class="form-label">Randevu Tarihi</label>
+            <input asp-for="AppointmentDate" type="datetime-local" class="form-control" />
+            <span asp-validation-for="AppointmentDate" class="text-danger"></span>
+        </div>
+
+        
+
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

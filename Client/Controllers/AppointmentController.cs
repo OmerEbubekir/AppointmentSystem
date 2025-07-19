@@ -28,7 +28,7 @@ namespace Client.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            // Kullanıcının Id’sini al (cookie’den)
+            
             var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
             if (userIdClaim == null)
             {
@@ -37,7 +37,7 @@ namespace Client.Controllers
 
             int userId = int.Parse(userIdClaim.Value);
 
-            // Randevuya kullanıcıyı bağla
+            
             model.UserID = userId;
 
             await _appointmentService.CreateAsync(model);

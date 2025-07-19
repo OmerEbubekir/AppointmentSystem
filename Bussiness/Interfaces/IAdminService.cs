@@ -19,9 +19,14 @@ namespace Bussiness.Interfaces
 
         // Randevu yönetimi
         Task<List<Appointment>> GetAllAppointmentsAsync();
+        Task<bool> DeleteAppointmentAsync(int appointmentId);
+
+        Task AddAppointmentAsync(Appointment appointment);
+
         Task<bool> EditAppointmentAsync(Appointment appointment);
 
-        // Genel sistem yönetimi için metodlar eklenebilir
+
+       
     }
 }
 

@@ -22,9 +22,9 @@ namespace Data.Entitys
         public string Email { get; set; }
 
         public string PasswordHash { get; set; }
-        public string Role { get; set; }
+        public string? Role { get; set; } = "User";
 
-        public ICollection<Appointment> Appointments { get; set; }
+        public ICollection<Appointment> Appointments { get; set; }=new List<Appointment>();
 
     }
 }

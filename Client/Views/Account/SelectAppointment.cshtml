@@ -1,0 +1,58 @@
+﻿@model List<Data.Entitys.Appointment>
+
+
+@{
+	ViewData["Title"] = "Randevular";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container mx-1">
+
+	<h2 class="mt-4 ">Randevu Listesi</h2>
+	<div class="row ">
+		@if (Model != null )
+		{
+			@foreach (var appointment in Model)
+			{
+				<div class="col-xl-3 col-md-6 mb-4">
+					<div class="card shadow border-start-primary h-100 py-2">
+						<div class="card-body">
+							<div class="text-xs fw-bold text-primary text-uppercase mb-1">
+								@appointment.Title
+							</div>
+							<div class="small text-gray-800">
+								<strong>Hasta Adı:</strong> @appointment.PatientName <br />
+								<strong>Date:</strong> @appointment.AppointmentDate
+							</div>
+						</div>
+						<div class="card-footer d-flex justify-content-between">
+							<form asp-action="BookAppointment" asp-controller="Account" method="post" style="display:inline;">
+								<input type="hidden" name="appointmentId" value="@appointment.Id" />
+								<input type="hidden" name="userId" value="@ViewBag.CurrentUserId" />
+								<button type="submit" class="btn btn-sm btn-outline-primary">
+									<i class="fas fa-edit"></i> Seç
+								</button>
+							</form>
+							<form asp-action="DeleteAppointment" asp-controller="Admin" method="post" style="display:inline;">
+								<input type="hidden" name="appointmentId" value="@appointment.Id" />
+								<button type="submit" class="btn btn-sm btn-outline-danger"
+										onclick="return confirm('Bu Randevuyu silmek istediğine emin misin?')">
+									<i class="fas fa-trash-alt"></i> Sil
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			}
+
+		}
+
+		else
+		{
+			<div class="col-12">
+				<div class="alert alert-info">Henüz Randevu eklenmemiş.</div>
+			</div>
+		}
+
+	</div>
+</div>
+

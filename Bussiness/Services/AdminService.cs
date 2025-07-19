@@ -18,6 +18,23 @@ namespace Bussiness.Services
         {
             _context = context;
         }
+
+        public async Task AddAppointmentAsync(Appointment appointment)
+        {
+            var appoint = new Appointment()
+            {
+                AppointmentDate = appointment.AppointmentDate,
+                              
+                Title = appointment.Title,
+                Description = appointment.Description,
+                PatientName = appointment.PatientName,
+                UserID = appointment.UserID,
+
+            };
+            await _context.Appointments.AddAsync(appoint);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task AddUserAsync(User user)
         {
             var person = new User()
@@ -26,12 +43,24 @@ namespace Bussiness.Services
                 LastName = user.LastName,
                 Email = user.Email,
                 Appointments = new List<Appointment>(),
-                PasswordHash = PasswordHelper.HashPassword(user.PasswordHash), // 👈 Şifre hashleniyor
+                PasswordHash = PasswordHelper.HashPassword(user.PasswordHash), 
                 Role = user.Role ?? "User"
             };
+            
 
             await _context.Users.AddAsync(person);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<bool> DeleteAppointmentAsync(int appointmentId)
+        {
+            var appointment = await _context.Appointments.FindAsync(appointmentId);
+            if (appointment == null)
+                return false;
+
+            _context.Appointments.Remove(appointment);
+            await _context.SaveChangesAsync();
+            return true;
         }
 
 
